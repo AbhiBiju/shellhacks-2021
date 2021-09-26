@@ -21,7 +21,7 @@ In this project we created an AI Model to predict the stock prices of any compan
 
 This was the data we fed to the AI Model
 
-##Machine Learning Model: XGBoost
+Machine Learning Model: XGBoost
 
 It is a bunch of decision trees running parallely. The number of decision can be controlled. In this model we used 4.
 
