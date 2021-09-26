@@ -7,7 +7,7 @@ Discord Username: PhenoMenon
 
 Email: nikhil.menon2002@gmail.com
 
-Contribution: Implementation of AI Model and Web Development
+Contribution: Implementation of AI Model, Web Development and Youtube Video
 
   2. Swarnali Nath
   
