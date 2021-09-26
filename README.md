@@ -1,4 +1,4 @@
-##Team Members:
+Team Members:
   1. Nikhil Menon 
 Github Username: NPhenoMenon
 Discord Username: PhenoMenon
@@ -9,12 +9,12 @@ Contribution: Web Design and Web Development
   4. Abhi Biju
 Contribution: Research and Planning
 
-##Languages Used
+Languages Used
   1. Python
   2. HTML
   3. IDE: Jupyter Notebook
 
-##About the Project
+About the Project
 In this project we created an AI Model to predict the stock prices of any company.
 
 ![image](https://user-images.githubusercontent.com/63388308/134806122-614759aa-2d2d-47a3-81d6-7d0f15effcb8.png)
@@ -25,7 +25,7 @@ This was the data we fed to the AI Model
 
 It is a bunch of decision trees running parallely. The number of decision can be controlled. In this model we used 4.
 
-##Outcome/Observations:
+Outcome/Observations:
 
 1. Since the AI model follows the actual trend, we can assume the data fed heavily impacts its accuracy.
 
