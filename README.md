@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+##Team Members:
+  1. Nikhil Menon 
+Github Username: NPhenoMenon
+Discord Username: PhenoMenon
+Email: nikhil.menon2002@gmail.com
+Contribution: Implementation of AI Model and Web Development
+  2. Swarnali Nath
+Contribution: Web Design and Web Development
+  4. Abhi Biju
+Contribution: Research and Planning
 
-## Getting Started
+##Languages Used
+  1. Python
+  2. HTML
+  3. IDE: Jupyter Notebook
 
-First, run the development server:
+##About the Project
+In this project we created an AI Model to predict the stock prices of any company.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![image](https://user-images.githubusercontent.com/63388308/134806122-614759aa-2d2d-47a3-81d6-7d0f15effcb8.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This was the data we fed to the AI Model
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+##Machine Learning Model: XGBoost
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+It is a bunch of decision trees running parallely. The number of decision can be controlled. In this model we used 4.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+##Outcome/Observations:
 
-## Learn More
+1. Since the AI model follows the actual trend, we can assume the data fed heavily impacts its accuracy.
 
-To learn more about Next.js, take a look at the following resources:
+2. The amount of data fed is directly proportional to the accuracy of the model.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. The tree depth is directly proportional to the accuracy of the model up to a certain point.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. The number of iterations is directly proportional to the accuracy of the model up to a certain point.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. The AI model can't predict events outside of the data given. However when more data is fed, it tends to follow the trend.
